@@ -82,7 +82,7 @@
                                     </div>
                                 </li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">熟食</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#pricing">訂單</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#order">訂單</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-shopping-cart" href="#pricing" title="購物車"><i class="material-icons">shopping_cart</i></a></li>
                             </ul>
                         </div>
@@ -155,7 +155,7 @@
                                     <div class="panel-heading" role="tab" id="headingOne">
                                         <h4 class="panel-title">
                                             <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Exceptional Frontend Framework
+                                                聯絡我們
                                             </a>
                                         </h4>
                                     </div>
@@ -202,7 +202,7 @@
             </div>
             
             <div class="bg-color-sky-light">
-                <div class="content-lg container">
+                <div id="time-line" class="content-lg container">
                     <!-- Masonry Grid -->
                     <h1>時間表</h1>
                     <div class="masonry-grid row">
@@ -342,8 +342,6 @@
                             </form>           
                         </div>
                     </div>                    
-                    
-                <!--End 依雷特布丁 -->
                 </div>
                 <div id="cake" class="order-company">
                     <h2>里夫蛋糕</h2>
@@ -366,556 +364,228 @@
                               <input type="submit" value="加入購物車">
                             </form>           
                         </div>                        
-                    </div> 
-                    <div class="row order-item">                      
-                        <div class="col-sm-5 margin-b-20">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>  
-                        <div class="col-sm-7 margin-b-50 order-context">                      
-                            <h4>乳酪條</h4>
-                            <p>====說明====</p>
-                            <form class="order-form">
-                              <label for="sel1"><p>數量</p></label>
-                              <select id="sel1" class="order-select">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                              <input type="submit" value="加入購物車">
-                            </form>           
-                        </div>                        
-                    </div>                     
-                </div>
-                </div>
-                <div id="cake" class="order-company">
-                    <h2>里夫蛋糕</h2>
-                    <div class="row order-item">                      
-                        <div class="col-sm-5 margin-b-20">
-                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
-                        </div>  
-                        <div class="col-sm-7 margin-b-50 order-context">                      
-                            <h4>手指泡芙</h4>
-                            <p>====說明====</p>
-                            <form class="order-form">
-                              <label for="sel1"><p>數量</p></label>
-                              <select id="sel1" class="order-select">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                              </select>
-                              <input type="submit" value="加入購物車">
-                            </form>           
-                        </div>                        
-                    </div>                   
+                    </div>                    
                 </div>
                 <div id="luwei" class="order-company">
+                    <h2>西井村滷味</h2>
+                    <div class="row order-item">                      
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>雞翅</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>                         
+                   
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>翅小腿</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>                         
+                  
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>雞爪</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>                         
+                     
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>雞胗</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>   
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>豆干</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>  
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>泡泡糖</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div> 
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>鴨翅</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div> 
+                        <div class="col-sm-4 margin-b-20 order-item">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                            <h4>組合包</h4>
+                            <form class="order-form">
+                                <label for="sel1"><p>數量</p></label>
+                                <select id="sel1" class="order-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                              <input type="submit" value="加入購物車">
+                            </form>  
+                        </div>                          
+                    </div>                     
+                </div>
+                <div id="mango" class="order-company">
+                <h2>玉井芒果乾</h2>
+                    <div class="row order-item">                      
+                        <div class="col-sm-5 margin-b-20">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                        </div>  
+                        <div class="col-sm-7 margin-b-50 order-context">                      
+                            <p>====說明====</p>
+                            <form class="order-form">
+                              <label for="sel1"><p>數量</p></label>
+                              <select id="sel1" class="order-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                              <input type="submit" value="加入購物車">
+                            </form>           
+                        </div>                        
+                    </div>                  
+                </div>
+                <div id="malt" class="order-company">
+                <h2>章成麥芽餅</h2>
+                    <div class="row order-item">                      
+                        <div class="col-sm-5 margin-b-20">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                        </div>  
+                        <div class="col-sm-7 margin-b-50 order-context"> 
+                            <p>====說明====</p>
+                            <form class="order-form">
+                              <label for="sel1"><p>原味</p></label>
+                              <select id="sel1" class="order-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                              <label for="sel1"><p>黑糖</p></label>
+                              <select id="sel1" class="order-select">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                              </select>
+                              <input type="submit" value="加入購物車">
+                            </form>           
+                        </div>                        
+                    </div>                  
+                </div>
+                <div id="cookie" class="order-company">
+                <h2>連德堂煎餅</h2>
+                    <div class="row order-item">                      
+                        <div class="col-sm-5 margin-b-20">
+                            <img class="img-responsive" src="img/970x647/01.jpg" alt="Latest Products Image">
+                        </div>  
+                        <div class="col-sm-7 margin-b-50 order-context"> 
+                            <p>====說明====</p>
+                            <a href="#time-line" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">什麼時候野台預購?</a>
+                        </div>                        
+                    </div>                  
                 </div>
             </div>
         </div>
         <!-- End pre-order -->
 
-        <!-- Pricing -->
-        <div id="pricing">
-            <div class="bg-color-sky-light">
-                <div class="content-lg container">
-                    <div class="row row-space-1">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-chemistry"></i>
-                                    <h3>Starter Kit <span> - $</span> 49</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 5 products</li>
-                                    <li class="pricing-list-item">50 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <!-- Pricing -->
-                            <div class="pricing pricing-active">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-badge"></i>
-                                    <h3>Professional <span> - $</span> 149</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Basic Features</li>
-                                    <li class="pricing-list-item">Up to 100 products</li>
-                                    <li class="pricing-list-item">100 Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                        <div class="col-sm-4">
-                            <!-- Pricing -->
-                            <div class="pricing">
-                                <div class="margin-b-30">
-                                    <i class="pricing-icon icon-shield"></i>
-                                    <h3>Advanced <span> - $</span> 249</h3>
-                                    <p>Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <ul class="list-unstyled pricing-list margin-b-50">
-                                    <li class="pricing-list-item">Extended Features</li>
-                                    <li class="pricing-list-item">Unlimited products</li>
-                                    <li class="pricing-list-item">Unlimited Users Panels</li>
-                                </ul>
-                                <a href="pricing.html" class="btn-theme btn-theme-sm btn-default-bg text-uppercase">Choose</a>
-                            </div>
-                            <!-- End Pricing -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End Pricing -->
-
-        <!-- Work -->
-        <div id="work">
+        <!-- Order -->
+        <div id="order">
             <div class="section-seperator">
                 <div class="content-md container">
                     <div class="row margin-b-40">
                         <div class="col-sm-6">
-                            <h2>Work</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                            <h2>訂單查詢與修改</h2>
+                            <p>想確認自己訂甚麼和修改嗎</p><a href="#" >案這裡</a>
                         </div>
                     </div>
                     <!--// end row -->
 
-                    <!-- Masonry Grid -->
-                    <div class="masonry-grid row">
-                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x415/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-30">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
-                            <!-- Work -->
-                            <div class="work work-popup-trigger">
-                                <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
-                                </div>
-                                <div class="work-popup-overlay">
-                                    <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
-                                        <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                                    <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Design,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Coding,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Portfolio</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Leader:</strong> John Doe</p>
-                                                    <p class="margin-b-5"><strong>Designer:</strong> Alisa Keys</p>
-                                                    <p class="margin-b-5"><strong>Developer:</strong> Mark Doe</p>
-                                                    <p class="margin-b-5"><strong>Customer:</strong> Keenthemes</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Work -->
-                        </div>
-                    </div>
+
                     <!-- End Masonry Grid -->
                 </div>
             </div>
             
-            <!-- Clients -->
-            <div class="content-lg container">
-                <!-- Swiper Clients -->
-                <div class="swiper-slider swiper-clients">
-                    <!-- Swiper Wrapper -->
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
-                        </div>
-                    </div>
-                    <!-- End Swiper Wrapper -->
-                </div>
-                <!-- End Swiper Clients -->
-            </div>
-            <!-- End Clients -->
         </div>
-        <!-- End Work -->
+        <!-- End Order -->
 
-        <!-- Service -->
-        <div id="service">
-            <div class="bg-color-sky-light" data-auto-height="true">
-                <div class="content-lg container">
-                    <div class="row margin-b-40">
-                        <div class="col-sm-6">
-                            <h2>Services</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row row-space-1 margin-b-2">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-chemistry"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Art Of Coding</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service bg-color-base" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon color-white icon-screen-tablet"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3 class="color-white">Responsive Design</h3>
-                                    <p class="color-white margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Feature Reach</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-
-                    <div class="row row-space-1">
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-notebook"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Useful Documentation</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4 sm-margin-b-2">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-speedometer"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Fast Delivery</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="service" data-height="height">
-                                <div class="service-element">
-                                    <i class="service-icon icon-badge"></i>
-                                </div>
-                                <div class="service-info">
-                                    <h3>Free Plugins</h3>
-                                    <p class="margin-b-5">Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor</p>
-                                </div>
-                                <a href="#" class="content-wrapper-link"></a>    
-                            </div>
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-        </div>
-        <!-- End Service -->
-            
-        <!-- Contact -->
-        <div id="contact">
-            <!-- Contact List -->
-            <div class="section-seperator">
-                <div class="content-lg container">
-                    <div class="row">
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">New York</a> <span class="text-uppercase margin-l-20">Head Office</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 1 012 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> hq@aitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">London</a> <span class="text-uppercase margin-l-20">Operation</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> operation@AitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-
-                        <!-- Contact List -->
-                        <div class="col-sm-4 sm-margin-b-50">
-                            <h3><a href="#">Singapore</a> <span class="text-uppercase margin-l-20">Finance</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 50 012 456 7890</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> finance@AitOnepage.com</li>
-                            </ul>
-                        </div>
-                        <!-- End Contact List -->
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Contact List -->
-            
-            <!-- Google Map -->
-            <div id="map" class="map height-300"></div>
-        </div>
-        <!-- End Contact -->
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
         <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Home</a></li>
-                                <li class="footer-list-item"><a href="#">About</a></li>
-                                <li class="footer-list-item"><a href="#">Work</a></li>
-                                <li class="footer-list-item"><a href="#">Contact</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Twitter</a></li>
-                                <li class="footer-list-item"><a href="#">Facebook</a></li>
-                                <li class="footer-list-item"><a href="#">Instagram</a></li>
-                                <li class="footer-list-item"><a href="#">YouTube</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-3">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Subscribe to Our Newsletter</a></li>
-                                <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
-                                <li class="footer-list-item"><a href="#">Terms &amp; Conditions</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
-            <!-- End Links -->
-
             <!-- Copyright -->
             <div class="content container">
                 <div class="row">
