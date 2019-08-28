@@ -59,7 +59,12 @@ var Layout = function () {
         var $item = $('.carousel .item'); 
         var $wHeight = $(window).height();
         $item.eq(0).addClass('active');
-        $item.height($wHeight); 
+		if($(window).width()>992)
+			$item.height($wHeight);
+		else{
+			$item.height(200);
+			$('.carousel-inner').last().addClass("padding-t");
+		}	
         $item.addClass('full-screen');
 
         $('.carousel img').each(function() {
@@ -74,7 +79,12 @@ var Layout = function () {
 
         $(window).on('resize', function (){
             $wHeight = $(window).height();
-            $item.height($wHeight);
+			if($(window).width()>992)
+				$item.height($wHeight);
+			else{
+				$item.height(200);
+				$('.carousel-inner').last().addClass("padding-t");
+			}
         });
     }
 

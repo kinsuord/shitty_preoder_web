@@ -36,10 +36,10 @@ body {
 }
 
 p {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   font-family:Microsoft JhengHei;
-  color: #a6a7aa;
+  color: #76787a;
   line-height: 1.4;
   margin-bottom: 15px;
 }
@@ -148,6 +148,20 @@ h4 {
 :active,
 :focus {
   outline: none;
+}
+
+/*自訂義 */
+.padding-l{
+	padding-left : 20px;
+}
+.padding-t{
+	padding-top : 100px;
+}
+.bg-color{
+	background-color : #fff3c4;
+}
+.bg-color-sub{
+	background-color : #fcf5d6;
 }
 
 /* Section Seperator */
@@ -360,13 +374,30 @@ fieldset[disabled] .btn-theme {
 /*------------------------------------------------------------------
   	[Pre-order]
 ------------------------------------------------------------------*/
-.pre-order {
-    
+.order-company{
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
 }
-.pre-order .order-form{
-    
+.order-title{
+    padding-top: 40px;
+    padding-left: 50px;
 }
-.pre-order .order-option{
+@media (max-width: 768px) {
+    .order-company{
+        margin-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    .order-title{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+}
+.order-form{
+    padding-top: 20px;
+}
+.order-option{
     
 }
 /*------------------------------------------------------------------
@@ -918,7 +949,7 @@ fieldset[disabled] .btn-theme {
   .header .navbar-nav-right {
     float: right;
   }
-  .header .navbar-shopping-cart {
+  .navbar-shopping-cart {
     display: none;
   }
 }
